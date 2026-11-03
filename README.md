@@ -1,48 +1,52 @@
-# little-tree-notes-showcase
-Little Tree Notes - A local-first desktop prompt manager with a cute desktop companion.
-# 🌱 Little Tree Notes | 小树便利贴
+# Little Tree Notes
 
-**让好用的提示词，随手收藏，随时调用。**
+**Collect useful prompts. Organize them easily. Reuse them anytime.**
 
-Little Tree Notes 是一款由个人独立设计与开发的 Windows 桌面提示词管理工具。它将桌面宠物、浮动面板与本地收藏管理结合，让用户能够快速保存、整理、搜索和复用日常收集的 AI 提示词。
+Little Tree Notes is a Windows desktop prompt manager independently designed and developed to make saving and reusing AI prompts simple. It combines a lightweight desktop companion, a floating quick-access panel, and a dedicated management window with local-first storage.
 
-## ✨ 核心功能
+## Key Features
 
-- **桌面宠物**：可爱的桌面伴侣，支持形象与主题配色联动。
-- **快捷收藏**：快速保存网上收集的提示词，支持多行正文。
-- **智能粘贴**：粘贴完整内容后，可从原文中选取标题。
-- **分类管理**：通过标签组织提示词，支持搜索与批量管理。
-- **快速复用**：一键复制提示词正文，方便在 AI 对话中使用。
-- **本地存储**：基于 SQLite 保存数据，支持 JSON 导入与导出。
-- **独立管理中心**：提供更完整的收藏管理界面。
+- **Desktop companion:** A small desktop pet with selectable appearances and coordinated themes.
+- **Quick capture:** Paste the full text of a prompt or a useful note, then select a title directly from the pasted content.
+- **Organized collections:** Group saved entries with tags, search by title or content, and manage multiple entries in batches.
+- **One-click copying:** Copy saved prompt text for use in ChatGPT and other AI tools.
+- **Local-first storage:** Store entries in a local SQLite database.
+- **Data portability:** Import and export collections in JSON format.
+- **Two workspace views:** Use the floating panel for quick access or open the management center for larger-scale organization.
 
-## 🖥️ 产品展示
+## Product Screenshots
 
-![小树截图1](./屏幕截图%202026-11-03%20151445.png)
+![Floating panel and desktop companion](./screenshot-01.png)
 
-![小树截图2](./屏幕截图%202026-11-03%20151926.png)
+![Prompt collection interface](./screenshot-02.png)
 
-![小树截图3](./屏幕截图%202026-11-03%20152033.png)
+![Prompt editing and capture workflow](./screenshot-03.png)
 
-![小树截图4](./屏幕截图%202026-11-03%20152244.png)
+![Management interface](./screenshot-04.png)
 
-## 🛠️ 技术实现
+## Technology Stack
 
-- JavaScript / Node.js
+- JavaScript and Node.js
 - PowerShell
-- C# / Windows Forms
+- C# and Windows Forms
 - WebView2
 - SQLite
-- MCP / Skills
+- ChatGPT/Codex integration through MCP
+- Skills-only local-execution proof of concept
 
-## 👩‍💻 项目经历
+## Project Contributions
 
-个人独立完成产品构思、功能规划、交互设计与核心功能开发。
+Independently led the product from concept to implementation, including:
 
-围绕 ChatGPT/Codex 工作流进行本地插件集成，并完成桌面窗口、数据存储、收藏管理及交互功能的实现与验证。
+- Product positioning, feature planning, and interaction design.
+- Development of the desktop companion, floating panel, and management center.
+- Implementation of local data storage, prompt collection management, tagging, search, and JSON import/export.
+- Integration with the ChatGPT/Codex workflow and validation of local desktop interactions.
 
-## 📌 项目状态
+## Project Status
 
-本项目已完成主要本地功能开发与桌面端验证，正在探索 Skills-only 桌面插件的公开分发方案。
+The core Windows desktop experience has been implemented and tested locally. Public distribution is still being explored; eligibility for publication in the ChatGPT plugin directory has not yet been confirmed.
 
-*Little Tree Notes — Collect better prompts, work smarter.*
+---
+
+*Little Tree Notes — Keep your best prompts close at hand.*
